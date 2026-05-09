@@ -118,12 +118,13 @@ section{
 }
 .map{
     text-decoration: none;
-    color: white;
-    padding: 15px;
+    color: #949c8d;
+    padding: 18px;
     border:solid #949c8d 2px;
     border-radius: 30px;
-    background-color: #b6beb0;
+    background-color: #f2f6ee;
 }
+
 
 .color-text{
     display: flex;
@@ -186,6 +187,21 @@ section{
     background-color: #949c8d ;
     border-radius: 28px;
     padding: 30px;
+}
+
+.gift-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gift-item h3{
+    color: #949c8d;
+}
+
+.feedback{
+    gap: 10px;
+    text-align: center;
 }
 
 
