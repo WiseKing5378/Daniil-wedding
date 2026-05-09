@@ -2,6 +2,15 @@
   font-family: "NefelibataBrush";
   src: url("font/Nefelibata-Sans.otf") format("opentype");
 }
+@font-face {
+  font-family: 'Englishscriptc';
+  src: url(font/Englishscriptc.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Universlightc';
+  src: url(font/Universlightc.otf) format('opentype');
+}
 
 *{
     padding: 0px;
@@ -17,7 +26,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    font-family: "NefelibataBrush";
+    font-family: "Universlightc";
     color: #606161;
 }
 
@@ -25,11 +34,12 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .title{
     font-weight: 500;
-    font-size: 28px;
+    font-size: 26px;
     text-transform: uppercase;
 }
 
@@ -47,11 +57,12 @@ section{
 }
 
 .main-foto{
+    font-family: 'Englishscriptc';
     flex-direction: column;
     align-items: center;
     justify-content: space-between;    
     gap: 10px;
-    height: 400px;
+    height: 600px;
     background-image: url(11.jpg);
     background-position: center;
     background-size:cover;
@@ -211,7 +222,7 @@ section{
 
 .timer {
   display: flex;
-  gap:5 px;
+  gap:5px;
   font-size: 3rem;
   justify-items: center;
   justify-content: center;
